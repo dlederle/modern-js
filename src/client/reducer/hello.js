@@ -25,7 +25,7 @@ const helloReducer =
       case SAY_HELLO_ASYNC_SUCCESS:
         return state.set('messageAsync', action.payload)
       case SAY_HELLO_ASYNC_FAILURE:
-        return state.set('messageAsync', 'No message receive, please check your connection')
+        return state.set('messageAsync', 'No message received, please check your connection')
       default:
         return state
     }
