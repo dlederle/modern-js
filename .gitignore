@@ -4,4 +4,6 @@
 /lib/
 node_modules/
 
+*.lock
 *.swp
+.yarnclean

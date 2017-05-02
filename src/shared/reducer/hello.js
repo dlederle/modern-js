@@ -29,6 +29,6 @@ const helloReducer =
       default:
         return state
     }
-}
+  }
 
 export default helloReducer

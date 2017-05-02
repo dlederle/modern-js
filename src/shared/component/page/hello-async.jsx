@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import HelloAsyncButton from '../../container/hello-async-button'
 import MessageAsync from '../../container/message-async'
 
-const tile = 'Async Hello Page'
+const title = 'Async Hello Page'
 
 const HelloAsyncPage = () =>
   <div>
