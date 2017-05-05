@@ -16,7 +16,7 @@ import {
 } from './routes'
 
 const App = () =>
-  <div>
+  <div style={{ paddingTop: 54 }}>
     <h1>{APP_NAME}</h1>
     <Nav />
     <Switch>

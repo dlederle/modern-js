@@ -18,7 +18,7 @@ setUpSocket(io)
 
 app.use(compression())
 app.use(STATIC_PATH, express.static('dist'))
-app.use(WEB_PORT, express.static('public'))
+app.use(STATIC_PATH, express.static('public'))
 
 routing(app)
 
