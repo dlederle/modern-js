@@ -2,6 +2,7 @@
 /*.log
 /coverage/
 /lib/
+/dist/*
 node_modules/
 
 *.lock
